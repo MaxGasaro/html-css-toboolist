@@ -1,0 +1,29 @@
+/*inizio common parts*/
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*fine common parts*/
+
+/* inizio header */
+.logo-container {
+    height: 60px;
+}
+
+#img-logo {
+    height: 45px;
+    vertical-align: middle;
+}
+
+#title {
+    font-size: 40px;
+    font-weight: 700;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0;
+}
+
+
+
+
+/* fine header */
