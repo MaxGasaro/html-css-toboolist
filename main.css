@@ -1,11 +1,18 @@
 /*inizio common parts*/
-* {
+body {
     font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
 }
+
 
 /*fine common parts*/
 
 /* inizio header */
+header {
+    background-color: #fff;
+
+}
+
 .logo-container {
     height: 60px;
 }
@@ -23,7 +30,89 @@
     margin: 0;
 }
 
-
-
-
 /* fine header */
+
+/* inizio main */
+
+
+.container-top {
+    width: 70%;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 20px;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+
+.container-bottom {
+    width: 70%;
+    margin: auto;
+    background-color: #fff;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+
+.add {
+    margin: 10px 0px;
+}
+
+.add.task {
+    color: #fff;
+    background-color: #1D9BF0;
+    border-radius: 10%;
+    font-size: 10px;
+    padding: 4px 8px;
+    margin-left: 25px;
+    border: 1px;
+}
+
+.add.section {
+    color: lightgray;
+    background-color: #fff;
+    border-radius: 10%;
+    font-size: 10px;
+    padding: 4px 8px;
+    border: 1px lightgray solid;
+}
+
+.sottotitoli {
+    font-size: 15px;
+    margin: 2px;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+.sottotitoli:before {
+    content: '\25BC';
+}
+
+ul {
+    padding-left: 18px;
+    list-style: none;
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top:2px;    
+}
+
+.elements {
+    font-weight: bold;
+    padding: 10px;
+}
+.elements.done:before {
+    content: '\1F5F8';
+    color: green;
+    margin: 2px;
+    border: green solid 1px;
+    border-radius: 50%;
+}
+
+.elements.undone:before {
+    content: '\2717';
+    color: red;
+    margin: 2px;
+    border: red solid 1px;
+    border-radius: 50%;
+}
+
+
+/* fine main */
