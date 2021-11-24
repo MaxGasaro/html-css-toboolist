@@ -17,6 +17,7 @@ header {
 
 .logo-container {
     height: 60px;
+    padding: 10px 20px;
 }
 
 #img-logo {
@@ -41,27 +42,31 @@ header {
     width: 70%;
     margin: auto;
     background-color: #fff;
-    margin-top: 20px;
-    border-top-left-radius: 2%;
-    border-top-right-radius: 2%;
+    margin-top: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .container-bottom {
     width: 70%;
     margin: auto;
     background-color: #fff;
-    border-bottom-left-radius: 2%;
-    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .add {
     margin: 10px 0px;
 }
 
+.add:hover {
+    border: 2px solid red;
+}
+
 .add.task {
     color: #fff;
     background-color: #1D9BF0;
-    border-radius: 10%;
+    border-radius: 10px;
     font-size: 10px;
     padding: 4px 8px;
     margin-left: 25px;
@@ -71,7 +76,7 @@ header {
 .add.section {
     color: lightgray;
     background-color: #fff;
-    border-radius: 10%;
+    border-radius: 10px;
     font-size: 10px;
     padding: 4px 8px;
     border: 1px lightgray solid;
@@ -86,6 +91,7 @@ header {
 
 .sottotitoli:before {
     content: '\25BC';
+    margin: 5px;
 }
 
 ul {
@@ -120,7 +126,7 @@ ul {
  
 .highlight {
     color: #fff;
-    border-radius: 40%;
+    border-radius: 20px;
     font-size:10px;
     padding: 5px;
 }
